@@ -60,6 +60,6 @@ var layout = {
 	paper_bgcolor: "rgba(0, 0, 0, 0)"
 };
 
-Plotly.newPlot('myDiv', data, layout);
+Plotly.newPlot('myDiv', data, layout, { staticPlot: true });
 
 
